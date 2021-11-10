@@ -196,7 +196,7 @@ let finalAnswer = 0;
                 break;
             default:
                  if (valOne.length >11) {
-                    alert("No more values beyond 8");
+                    alert("Tidak Ada Nilai Lagi Diluar 8");
                 }
 
                  else {
@@ -209,7 +209,7 @@ let finalAnswer = 0;
                 break;
             case ".":
                 if (valOne.includes(".")) {
-                    alert("You cannot use anymore decimals");
+                    alert("Anda Tidak Dapat Menggunakan Decimal Lagi");
                 } else {
                     valOne.push(this.innerText);
                     ui.textContent = valOne.join("");
@@ -295,7 +295,7 @@ function makeCalculation() {
 
     } else if (operator.length == 0) {
 
-        alert("invalid calculation there is no operator");
+        alert("Perhitungan Tidak Valid, Tidak Ada Operator");
         
     }
 
